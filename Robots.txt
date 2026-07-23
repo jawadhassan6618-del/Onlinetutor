@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.onlinetutor.com/sitemap.xml
+Sitemap: https://jawadhassan6618-del.github.io/Onlinetutor/sitemap.xml
