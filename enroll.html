@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment</title>
+
+    <link rel="stylesheet" href="enroll.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Learn<span>Hub</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="enroll">
+
+<div class="form-box">
+
+<h1>Enroll Now</h1>
+
+<form action="success.html">
+
+<div class="input-box">
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Selected Course</label>
+<input type="text" id="course" readonly>
+
+</div>
+
+<div class="input-box">
+
+<label>Preferred Start Date</label>
+<input type="date" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Payment Method</label>
+
+<select required>
+
+<option value="">Select Payment</option>
+
+<option>Credit Card</option>
+
+<option>Debit Card</option>
+
+<option>Bank Transfer</option>
+
+<option>JazzCash</option>
+
+<option>EasyPaisa</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Additional Notes</label>
+
+<textarea rows="5" placeholder="Write here..."></textarea>
+
+</div>
+
+<button type="submit" class="btn">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+Complete Enrollment
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<script src="enroll.js"></script>
+
+</body>
+</html>

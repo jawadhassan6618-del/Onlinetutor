@@ -1,0 +1,204 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#0d6efd;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:white;
+}
+
+.logo span{
+color:#FFD700;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:.3s;
+}
+
+nav ul li a:hover,
+.active{
+color:#FFD700;
+}
+
+.about{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:80px 8%;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.about-image img{
+width:500px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.about-content{
+max-width:600px;
+}
+
+.about-content h1{
+font-size:45px;
+margin-bottom:20px;
+color:#0d6efd;
+}
+
+.about-content p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#0d6efd;
+color:white;
+text-decoration:none;
+border-radius:40px;
+transition:.4s;
+}
+
+.btn:hover{
+background:#084298;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+padding:80px 8%;
+background:#f5f8ff;
+}
+
+.box{
+background:white;
+padding:35px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.box h2{
+font-size:42px;
+color:#0d6efd;
+margin-bottom:10px;
+}
+
+.box p{
+font-size:18px;
+}
+
+.why{
+padding:80px 8%;
+text-align:center;
+}
+
+.why h2{
+font-size:40px;
+margin-bottom:50px;
+color:#0d6efd;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card i{
+font-size:55px;
+color:#0d6efd;
+margin-bottom:20px;
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+}
+
+footer{
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:992px){
+
+.about{
+flex-direction:column;
+}
+
+.about-image img{
+width:100%;
+}
+
+.stats{
+grid-template-columns:repeat(2,1fr);
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:600px){
+
+.stats{
+grid-template-columns:1fr;
+}
+
+.about-content h1{
+font-size:35px;
+}
+
+}
